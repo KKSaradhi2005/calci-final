@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;   
+    background-color: #d9a8a8;
+}
+
+.calculator {
+    border: 100px solid #ccc;
+    border-radius: 100px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.logo p{
+    font-size: 30px;    
+    font-weight: bold;    
+    float: left;    
+    color: white;    
+    text-transform: uppercase;    
+    Letter-spacing: 1.5px;    
+    cursor: pointer;
+}
+
+.display {
+    background-color: #222;
+    color: #fff;
+    text-align: right;
+    padding: 20px;
+    font-size: 2em;
+}
+
+.display input {
+    width: 100%;
+    border: none;
+    background: none;
+    color: #fff;
+    text-align: right;
+    font-size: 1em;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    padding: 20px;
+    font-size: 1.5em;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #c394bb;
+}
+
+button:active {
+    background-color: #cb6d6d;
+}
+
+button:nth-child(4n) {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+button:nth-child(4n):hover {
+    background-color: #e68a00;
+}
+
+button:nth-child(4n):active {
+    background-color: #cc7a00;
+}
+
+button:nth-last-child(1) {
+    color: #fff;
+    padding: 20px;
+    font-size: 1.5em;
+    border: 1px solid #ccc;
+    background-color: #b81318;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+button:nth-last-child(1):hover {
+    background-color: #e53935;
+}
+
+button:nth-last-child(1):active {
+    background-color: #d32f2f;
+}
