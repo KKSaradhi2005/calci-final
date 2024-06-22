@@ -16,7 +16,7 @@ body {
 .logo p{
     font-size: 30px;    
     font-weight: bold;    
-    float: left;    
+    float: top;    
     color: white;    
     text-transform: uppercase;    
     Letter-spacing: 1.5px;    
@@ -77,13 +77,15 @@ button:nth-child(4n):active {
 
 button:nth-last-child(1) {
     color: #fff;
-    padding: 20px;
+    padding-left: 80px;
     font-size: 1.5em;
-    border: 1px solid #ccc;
+    border: 5px solid #ccc;
     background-color: #b81318;
     cursor: pointer;
     outline: none;
-    
+    justify-content: center;
+    align-items: center;
+
 }
 
 button:nth-last-child(1):hover {
